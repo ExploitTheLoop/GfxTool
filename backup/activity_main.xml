@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/GetFps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Fps"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/SetFps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Fps"
+        android:layout_below="@id/GetFps"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/GetGraphicsStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Graphic Style"
+        android:layout_below="@id/SetFps"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/SetGraphicstyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Graphic Style"
+        android:layout_below="@id/GetGraphicsStyle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_below="@id/SetGraphicstyle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/statusMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Save"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="Status : Message"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp" />
+
+</RelativeLayout>
