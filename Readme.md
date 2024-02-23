@@ -40,6 +40,6 @@ We would like to thank the PUBG community for their support and feedback in the 
 
 ## Contact
 
-For any questions, suggestions, or issues, please feel free to contact the project maintainer(s) at [Myemail](sayan8013cocacc@gmail.com).
+For any questions, suggestions, or issues, please feel free to contact the project maintainer(s) at [sayan8013cocacc@gmail.com](https://mail.google.com/).
 
 Happy gaming! 🎮
